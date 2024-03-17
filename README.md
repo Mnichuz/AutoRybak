@@ -21,6 +21,7 @@ Program szuka w danym obszarze ekranu koloru emotki ryby. Gdy go znajdzie, czeka
 
 Aby zatrzymać program należy w cmd nacisnąć ctrl-c albo nacisnąc `q` na klawiaturze
 
+Żeby zobaczyć na jakim obszarze program szuka koloru można zobaczyć plik `capturing_probe.png`, który tworzy się zawsze po odpaleniu programu.
 #
 
 Użyte linki:
