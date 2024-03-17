@@ -1,7 +1,7 @@
 from pyautogui import *
 import pyautogui,time,keyboard,ctypes
 
-print('Kod działa.')
+print('Kod zacznie działać za 10 sekund.')
 
 #ROZDZIELCZOSC MONITORA
 width1 = 1920
@@ -55,7 +55,7 @@ def ReleaseKey(hexKeyCode):
     ctypes.windll.user32.SendInput(1, ctypes.pointer(x), ctypes.sizeof(x))
 
 time.sleep(10)
-
+print('Kod działa')
 color = [85,172,238] #KOLOR EMOTKI RYBY
 pic = pyautogui.screenshot(region = (int(0.25*width1),int(0.2*height1),int(0.4*width1),int(0.35*height1))) #region(left,top,width,height)
 pic.save('capturing_probe.png') #PRÓBKA OBSZARU NA KTORYM SZUKANA JEST EMOTKA
