@@ -1,6 +1,7 @@
 from pyautogui import *
 import pyautogui,time,keyboard,ctypes
 
+print('Kod działa.')
 
 #ROZDZIELCZOSC MONITORA
 width1 = 1920
