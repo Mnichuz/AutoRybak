@@ -22,6 +22,8 @@ Program szuka w danym obszarze ekranu koloru emotki ryby. Gdy go znajdzie, czeka
 Aby zatrzymać program należy w cmd nacisnąć ctrl-c albo nacisnąc `q` na klawiaturze
 
 Żeby zobaczyć na jakim obszarze program szuka koloru można zobaczyć plik `capturing_probe.png`, który tworzy się zawsze po odpaleniu programu.
+
+Jeżeli program nie działa, a macie jakieś shadery, to możliwe że shadery zmieniają kolor emotki przez co program jej nie wykrywa. W takim przypadku należy wyłączyć shadery lub zmienić w kodzie kolor emotki.
 #
 
 Użyte linki:
