@@ -103,7 +103,7 @@ while keyboard.is_pressed('q') == False:
                 time.sleep(.1)
                 ReleaseKey(0x12)
                 time.sleep(.1)
-                time.sleep(3.7)
+                time.sleep(1.5)
                 print('Wyjmuje wędkę...')
                 time.sleep(.1)
                 PressKey(0x05)
